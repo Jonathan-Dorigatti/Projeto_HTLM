@@ -1,0 +1,108 @@
+.corFundo{
+	background-color:#E5F2F9;
+}
+
+/* NAVBAR ---------------------------------------------- */
+.bg-light {
+	background-color: #448F9A !important;
+}
+
+.navbar>.container,
+.navbar>.container-fluid,
+.navbar>.container-lg,
+.navbar>.container-md,
+.navbar>.container-sm,
+.navbar>.container-xl,
+.navbar>.container-xx {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	font-size: 25px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: #F0E7B7;
+}
+
+/* SIDEBAR --------------------------------------------- */
+.sidebar{
+	height: 100%;
+	width: 250px;
+	position: fixed;
+	z-index: 1;
+	top: 97px;
+	left: 0;
+	background-color: #5BBFCD;
+	overflow-x: hidden;
+	padding-top: 20px;
+}
+
+.sidebarTitulo{
+	font-family: 'Poppins', sans-serif;
+	font-size: 18px;
+	padding-top: 40px;
+	font-weight: 800;
+	color: #F0E7B7;
+}
+
+.sidebar a{
+	padding-top: 40px;
+	padding-left: 40px;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 400;
+	font-family: 'Poppins', sans-serif;
+	color: #E5F2F9;
+	display: block;
+}
+
+/* CONTEXTO DA PÁGINA ---------------------------------- */
+.conteudo{
+	margin-left: 280px;
+	margin-top: 107px;
+	padding: 0px, 10px;
+}
+
+.breadcrumb{
+	font-family: 'Poppins', sans-serif;
+	color: #448F9A;
+	font-size: 18px;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.cardFormatacoes{
+	border-color: #448F9A;
+	margin-left: 20px;
+}
+
+.cardTitulo{
+	font-family: 'Poppins', sans-serif;
+	font-size: 18px;
+	font-weight: 800;
+	color: #448F9A;
+}
+
+.cardDescricao{
+	font-family: 'Poppins', sans-serif;
+	color: #173033;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.botao{
+	font-family: 'Poppins', sans-serif;
+	background-color: #448F9A;
+	color: #F0E7B7;
+}
+
+
+.row{
+    --bs-gutter-x: 0.5rem;
+    --bs-gutter-y: 0;
+}
+
+.tituloCategoria{
+	font-family: 'Poppins', sans-serif;
+	font-size: 24px;
+	color: #448F9A;
+}
