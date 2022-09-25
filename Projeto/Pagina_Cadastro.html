@@ -66,188 +66,75 @@
 	</nav>
 
 	<body>
-  <h1> formulario de cadastro para KJA </h1> 
-  <h2> ulalauu </h2><br />
+ 
+  <div class="formulario">
 
-<form action="Script_do_Formulario.php" method="post">
-
-<!-- DADOS PESSOAIS-->
-<fieldset>
- <legend>Dados Pessoais</legend>
- <table cellspacing="10">
-  <tr>
-   <td>
-    <label for="nome">Nome completo:</label>
-   </td>
-   <td align="center">
-    <input type="text" name="nome">
-   </td>
-   <td align="center">
-   </td>
-   <tr>
-   <td>
-    <label for="E-mail">E-mail </label> 
-   </td>
-   <td align="center">
-    <input type="text" name="email">
-   </td>
-  </tr>
-  <td>
-    <label for="Confirmar E-mail">Confirmar E-mail: </label>
-   </td>
-   <td align="left">
-    <input type="text" name="E-mail">
-   </td>
-   <tr>
-    <td>
-     <label for="Senha">Senha:</label> 
-    </td>
-    <td align="left">
-     <input type="text" name="Senha">
-    </td>
-   </tr>
-   <tr>
-    <td>
-     <label for="Confirmar Senha">Confirmar Senha:</label> 
-    </td>
-    <td align="left">
-     <input type="text" name="Confirmar Senha">
-    </td>
-   </tr>
-  <tr>
-   <td>
-    <label for="Data de Nascimento">Data de Nascimento</label>
-    <td align="left">
-    <input type="date" name="Data de Nascimento">
-   </td>
-   <td align="left">
-   </td>
-   </td>
-  </tr>
-  <tr>
-   <td>
-    <label>Gênero: </label>
-    <td align="left">
-    <input type="checkbox" name="genero" value="masculino">Masculino<br>
-    <input type="checkbox" name="genero" value="feminino">Feminino<br>
-    <input type="checkbox" name="genero" value="outro">Outro<br>
-    </td>
-   </td> 
-   </td>
-  </tr>
-  <tr>
-   <td>
-    <label>CPF:</label>
-   </td>
-   <td align="left">
-    <input type="text" name="cpf" size="9" maxlength="9"> - <input type="text" name="cpf2" size="2" maxlength="2">
-   </td>
-  </tr>
- </table>
-</fieldset>
-
-<br />
-<!-- ENDEREÇO -->
-<fieldset>
- <legend>Dados de Endereço</legend>
- <table cellspacing="10">
-
-  <tr>
-   <td>
-    <label for="rua">Rua:</label>
-   </td>
-   <td align="left">
-    <input type="text" name="rua">
-   </td>
-   <td>
-    <label for="numero">Número:</label>
-   </td>
-   <td align="left">
-    <input type="text" name="numero" size="4">
-   </td>
-  </tr>
-  <tr>
-   <td>
-    <label for="bairro">Bairro:</label>
-   </td>
-   <td align="left">
-    <input type="text" name="bairro">
-   </td>
-  </tr>
-
-  <tr>
-    <td>
-     <label for="Complemento">Complemento:</label>
-    </td>
-    <td align="left">
-     <input type="text" name="complemento">
-    </td>
-   </tr>
-
-  <tr>
-   <td>
-    <label for="estado">Estado:</label>
-   </td>
-   <td align="left">
-    <select name="estado"> 
-    <option value="ac">Acre</option> 
-    <option value="al">Alagoas</option> 
-    <option value="am">Amazonas</option> 
-    <option value="ap">Amapá</option> 
-    <option value="ba">Bahia</option> 
-    <option value="ce">Ceará</option> 
-    <option value="df">Distrito Federal</option> 
-    <option value="es">Espírito Santo</option> 
-    <option value="go">Goiás</option> 
-    <option value="ma">Maranhão</option> 
-    <option value="mt">Mato Grosso</option> 
-    <option value="ms">Mato Grosso do Sul</option> 
-    <option value="mg">Minas Gerais</option> 
-    <option value="pa">Pará</option> 
-    <option value="pb">Paraíba</option> 
-    <option value="pr">Paraná</option> 
-    <option value="pe">Pernambuco</option> 
-    <option value="pi">Piauí</option> 
-    <option value="rj">Rio de Janeiro</option> 
-    <option value="rn">Rio Grande do Norte</option> 
-    <option value="ro">Rondônia</option> 
-    <option value="rs">Rio Grande do Sul</option> 
-    <option value="rr">Roraima</option> 
-    <option value="sc">Santa Catarina</option> 
-    <option value="se">Sergipe</option> 
-    <option value="sp">São Paulo</option> 
-    <option value="to">Tocantins</option> 
-   </select>
-   </td>
-  </tr>
-  <tr>
-   <td>
-    <label for="cidade">Cidade:</label>
-   </td>
-   <td align="left">
-    <input type="text" name="cidade">
-   </td>
-  </tr>
-  <tr>
-   <td>
-    <label for="cep">CEP:</label>
-   </td>
-   <td align="left">
-    <input type="text" name="cep" size="5" maxlength="5"> - <input type="text" name="cep2" size="3" maxlength="3">
-   </td>
-  </tr>
- </table>
-</fieldset>
-<br />
-<input type="checkbox" name="genero" value="masculino">Li e aceito os termos de uso<br>
-<input type="checkbox" name="genero" value="feminino">Quero enviar receitas.<br>
-<br>
-<input type="submit">
-</form>
-
-
-	<!-- JS ----------------------------------------->
-	<script src="JavaScript/scripts.js"></script>
-
-</body>
-</html>
+    <h1>Formulário de Cadastro</h1> 
+    <form action="Formulario_Cadastro.html">
+      <label for="nome">Nome Completo:</label><br>
+      <input type="text" id="nome" name="nome" value=""><br>
+      <label for="e-mail">E-mail:</label><br>
+      <input type="text" id="e-mail" name="e-mail" value=""><br>
+      <label for="confirmar e-mail">Confirmar E-mail:</label><br>
+      <input type="text" id="confirmar e-mail" name="confirmar e-mail" value=""><br>
+      <label for="senha">Senha:</label><br>
+      <input type="text" id="senha" name="senha" value=""><br>
+      <label for="confirmar senha">Confirmar Senha:</label><br>
+      <input type="text" id="confirmar senha" name="confirmar senha" value=""><br>
+      <label for="data">Data de Nascimento:</label><br>
+      <input type="date" id="data" name="data" value=""><br>
+      <label for="genero">Gênero:</label><br>
+      <input type="checkbox" name="genero" value="masculino">Masculino<br>
+      <input type="checkbox" name="genero" value="feminino">Feminino<br>
+      <input type="checkbox" name="genero" value="outro">Outro<br> <label for="e-mail">E-mail:</label><br>
+      <label for="cpf">CPF:</label><br>
+      <input type="number" id="cpf" name="cpf" value=""><br>
+      <label for="rua">Rua:</label><br>
+      <input type="text" id="rua" name="rua" value=""><br>
+      <label for="numero">Nº:</label><br>
+      <input type="number" id="numero" name="numero" value=""><br>
+      <label for="bairro">Bairro:</label><br>
+      <input type="text" id="bairro" name="bairro" value=""><br>
+      <label for="complemento">Complemento:</label><br>
+      <input type="text" id="complemento" name="estado" value=""><br>
+      <label for="estado">Estado:</label><br>
+     <select name="estado"><br>
+     <option value="ac">Acre</option> 
+     <option value="al">Alagoas</option> 
+     <option value="am">Amazonas</option> 
+     <option value="ap">Amapá</option> 
+     <option value="ba">Bahia</option> 
+     <option value="ce">Ceará</option> 
+     <option value="df">Distrito Federal</option> 
+     <option value="es">Espírito Santo</option> 
+     <option value="go">Goiás</option> 
+     <option value="ma">Maranhão</option> 
+     <option value="mt">Mato Grosso</option> 
+     <option value="ms">Mato Grosso do Sul</option> 
+     <option value="mg">Minas Gerais</option> 
+     <option value="pa">Pará</option> 
+     <option value="pb">Paraíba</option> 
+     <option value="pr">Paraná</option> 
+     <option value="pe">Pernambuco</option> 
+     <option value="pi">Piauí</option> 
+     <option value="rj">Rio de Janeiro</option> 
+     <option value="rn">Rio Grande do Norte</option> 
+     <option value="ro">Rondônia</option> 
+     <option value="rs">Rio Grande do Sul</option> 
+     <option value="rr">Roraima</option> 
+     <option value="sc">Santa Catarina</option> 
+     <option value="se">Sergipe</option> 
+     <option value="sp">São Paulo</option> 
+     <option value="to">Tocantins</option> 
+    </select><br>
+    <label for="cidade">Cidade:</label><br>
+    <input type="text" id="cidade" name="cidade" value=""><br>
+    <label for="cep">CEP:</label><br>
+    <input type="number" id="cep" name="cep" value=""><br>
+    <input type="checkbox" name="li e aceito" value="">Li e aceito os termos de uso<br>
+    <input type="checkbox" name="enviar receitas" value="">Quero enviar receitas.<br>
+    <input type="button" value="Confirmar"> 	
+    </form> 
+  </div>
+  </body>
+  </html>

@@ -98,3 +98,77 @@
 	font-weight: 300;
 }
 
+/* PAGINA DE LOGIN E PAGINA DE CADASTRO ------------------------------------------------ */
+
+body {
+	margin: 70px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 18px;
+	font weight: 300px;
+	text-align: center;
+	-webkit-text-size-adjust: 100%;
+	-webkit-tap-highlight-color: transparent;
+}
+
+button, input, optgroup, select, textarea {
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	line-height: inherit;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: #C4C4C4;
+	width: 50%;
+}
+
+label {
+	display: flex ;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+	margin-top: inherit;
+	margin-bottom: 0.5rem;
+	font-weight: 300;
+	line-height: 1.2;
+	font-family: 'Poppins', sans-serif;
+}
+
+fieldset {
+	display: flex;
+	margin-inline-end: 2px;
+	padding-block-start: 0.35em;
+	padding-inline-start: 0.75em;
+	padding-inline-end: 0.75em;
+	padding-block-end: 0.625em;
+	border-image: initial;
+}
+
+body {
+	margin: 75px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 18px;
+	font weight: 300px;
+	text-align: center;
+	-webkit-text-size-adjust: 100%;
+	-webkit-tap-highlight-color: transparent;
+}
+
+.formulario {
+  background-color: #5BBFCD;
+	
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}

@@ -65,35 +65,21 @@
 	</nav>
 	</nav>
 
-	<body>
-  <h1> formulario de cadastro para KJA </h1> 
-  <h2> ulalauu </h2><br />
-
 <form action="Script_do_Formulario.php" method="post">
 
 <!-- Informações de Acesso-->
-<fieldset>
- <legend>Informações de Acesso</legend>
- <table cellspacing="10">
-   <tr>
-   <td>
-    <label for="nome"> E-mail </label> 
-   </td>
-   <td align="center">
-    <input type="text" name="email">
-   </td>
-  </tr>
-  <td>
-     <label for="nome"> Senha: </label> 
-    </td>
-    <td align="center">
-     <input type="text" name="Senha">
-    </td>
-  </tr>
- </table>
-</fieldset>
-<input type="submit">
-</form>
 
+<body>
+	<br>
+	<div class=".card.login">
+	<h1>Informações de Acesso</h1>
+	<form action="Pagina_Cadastro.html">
+		<label for="email">E-mail:</label><br>
+		<input type="text" id="email" name="email" value=""><br>
+		<label for="senha">Senha:</label><br>
+		<input type="text" id="senha" name="senha" value=""><br><br>
+		<input type="button" value="Confirmar"> 	
+	</form> 
+</div>
 </body>
-</html>
+
