@@ -14,6 +14,12 @@ img {max-width: none;}
 	background-color: #E5F2F9;
 }
 
+.barra{
+	background-color: #E5F2F9;
+	text-align: left;
+	width: 100%;
+}
+
 /* CARROSSEL ------------------------------------------- */
 
 .carrosselTitulo {
