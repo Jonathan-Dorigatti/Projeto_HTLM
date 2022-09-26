@@ -1,3 +1,15 @@
+{margin: 0; padding: 0; font-size: 100%; border: none; outline: none; font-weight:  300; box-sizing: border-box;
+font-family: 'Poppins', sans-serif;}
+body {background-color: #E5F2F9;}
+a {text-decoration: none;}
+ul {list-style: none;}
+img {max-width: none;}
+
+
+.logo {
+	width: 110px; height: 55px; float: left;
+}
+
 .corFundo {
 	background-color: #E5F2F9;
 }
@@ -31,8 +43,9 @@
 .navbar>.container-xl,
 .navbar>.container-xx {
 	font-family: 'Poppins', sans-serif;
-	font-weight: 600;
-	font-size: 25px;
+	font-weight: 100%;
+	font-size: 100%;
+	max-width: 100%;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -47,6 +60,7 @@
 	background-color: #E5F2F9;
 	border-color: #E5F2F9;
 	column-rule: 50px double #E5F2F9;
+
 }
 
 .body {
@@ -77,6 +91,7 @@
 	padding: 15%;
 	background-color: #E5F2F9;
 	border-color: #E5F2F9;
+	max-width: 100%;
 
 }
 
@@ -100,36 +115,58 @@
 
 /* PAGINA DE LOGIN E PAGINA DE CADASTRO ------------------------------------------------ */
 
-body {
-	margin: 70px;
-	font-family: 'Poppins', sans-serif;
-	font-size: 18px;
-	font weight: 300px;
-	text-align: center;
-	-webkit-text-size-adjust: 100%;
-	-webkit-tap-highlight-color: transparent;
-}
-
-button, input, optgroup, select, textarea {
+optgroup,  textarea {
 	margin: 0;
 	font-family: 'Poppins', sans-serif;
 	font-size: 14px;
 	line-height: inherit;
   padding: 12px 20px;
-  margin: 8px 0;
+  margin: 0px 0;
   box-sizing: border-box;
   background-color: #C4C4C4;
+	width: 100%;
+	align-content: left;
+	display: flex ;
+
+}
+
+button { 
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	line-height: inherit;
+  padding: 12px 20px;
+  margin: 0px 0;
+  box-sizing: border-box;
+  background-color: #5BBFCD;
+  
 	width: 50%;
 }
 
-label {
+.label {
+	width: 100%;
+	align-content: left;
 	display: flex ;
 }
+
+.input {
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	line-height: inherit;
+  padding: 12px 20px;
+  margin: 0px 0;
+  box-sizing: border-box;
+  background-color: #C4C4C4;
+	width: 30%;
+	align-content: left;
+
+} 
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
 	margin-top: inherit;
 	margin-bottom: 0.5rem;
-	font-weight: 300;
+	font-weight: 100%;
 	line-height: 1.2;
 	font-family: 'Poppins', sans-serif;
 }
@@ -155,9 +192,37 @@ body {
 }
 
 .formulario {
-  background-color: #5BBFCD;
-	
+	text-align: left;
+	width: 100%;
+ 	background-color: #ff9e7d !important;
+ 	opacity: 70%;
+ 	background-blend-mode: 20%;
+ 	padding: 15px;
+
 }
+
+.login {
+	align-items: center;
+	text-align: center;
+	width: 100%;
+ 	background-color: #ff9e7d !important;
+ 	opacity: 70%;
+ 	background-blend-mode: 20%;
+ 	padding: 15px;
+
+}
+
+.select {
+
+	text-align: left;
+	width: 100%;
+ 	background-color: #5BBFCD !important;
+ 	background-blend-mode: 20%;
+ 	padding: 15px;
+
+}
+
+
 
 @media screen and (max-width: 800px) {
   .leftcolumn, .rightcolumn {   
